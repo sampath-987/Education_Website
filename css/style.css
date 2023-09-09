@@ -149,7 +149,7 @@ margin-bottom: 3rem;
 .categories_container{
     display: grid;
     grid-template-columns: 40% 60%;
-    gap: 4rem;
+    /*gap: 4rem00;*/
 }
 .categories_left p{
     margin: 1rem 0 3rem;
@@ -157,7 +157,14 @@ margin-bottom: 3rem;
 .categories_right{
     display: grid;
     grid-template-columns: repeat(3,1fr);
+    gap:1.2rem;
 }
 .category{
-    
+    background: var(--color-bg2);
+    padding:2rem;
+    border-radius: 2rem;
+    transition: var(--transition);
+}
+.category:hover{
+    box-shadow:0 3rem 3rem rgba(0,0,0,0.3);
 }
